@@ -1,0 +1,14 @@
+name: Rokesh Info 
+markdown: kramdown
+highligther: pygments
+timezone: Europe/London 
+exclude: ['Gemfile', 'Gemfile.lock', '*.sublime-*', 'lib','vendor', 'Rakefile', 's3_website.yml']
+relative_permalinks: false
+url: https://blog.rokesh.com
+author: Blake Friedman
+gems:
+    - jekyll-feed
+sass:
+  style: compressed
+kramdown:
+  input: GFM
